@@ -202,7 +202,6 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put any
 user code."
 
-  (setq ns-pop-up-frames nil)
   (add-hook 'prog-mode-hook #'linum-mode)
 
   ;;global keys
