@@ -207,6 +207,7 @@ user code."
 
   ;;global keys
   (global-set-key [f8] 'neotree-toggle)
+  (global-set-key [f5] 'shell-pop-eshell)
 )
 
 (defun dotspacemacs/user-config ()
