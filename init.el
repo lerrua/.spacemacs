@@ -204,6 +204,9 @@ user code."
 
   (setq ns-pop-up-frames nil)
   (add-hook 'prog-mode-hook #'linum-mode)
+
+  ;;global keys
+  (global-set-key [f8] 'neotree-toggle)
 )
 
 (defun dotspacemacs/user-config ()
